@@ -10,6 +10,8 @@ def cadastro():
   else:
     nome = input("Digite seu nome: ")
     senha = input("Digite sua senha: ")
+    usuario['nome'] = nome
+    senha['senha'] = senha
     print(f"Nome: {nome}, Senha: {senha}.") 
     print("Cadastro realizado!")
     
@@ -23,7 +25,7 @@ def login():
   name = input("Digite o nome do usuário: ")
   password = input("Digite sua senha: ")
   
-  if name == usuario and senha == usuario:
+  if name == usuario.get('nome') and senha == usuario.get('nome'):
     logado = True
     print("Login realizado!")
     
@@ -33,15 +35,16 @@ def login():
 def alterar_senha():
   
   global usuario
+  global logado
   if not logado:
     print("É preciso estar logado para realizar a alteração de senha.")
     return
   
 senha_atual = input("Digite a senha: ")
 
-if senha_atual == usuario:
+if senha_atual == usuario.get('senha'):
   nova_senha = input("Digite a nova senha: ")
-  usuario = nova_senha
+  usuario['senha'] = nova_senha
   print("Sua senha foi alterada!")
   
 else:
