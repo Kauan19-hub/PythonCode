@@ -10,7 +10,7 @@ def cadastro():
   else:
     nome = input("Digite seu nome: ")
     senha = input("Digite sua senha: ")
-    usuario['nome'] = nome
+    usuario['nome'] = senha
     senha['senha'] = senha
     print(f"Nome: {nome}, Senha: {senha}.") 
     print("Cadastro realizado!")
