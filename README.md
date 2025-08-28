@@ -26,8 +26,13 @@ funcoes-condicoes/
 **<h2>✅ Como usar o código?</h2>**
 
 ###
+
+No Powershell, CmD, ou Bash, digite:
+
+###
+
 ```bash
-git clone https://github.com/usuario/projeto.git
+git clone https://github.com/Kauan19-hub/Python.git
 ```
 
 ###
