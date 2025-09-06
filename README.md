@@ -2,11 +2,11 @@
 
 ###
 
-Este repositório tem como objetivo de compartilhar, e ensinar códigos fáceis com python, que geram grandes resultados!
+This repository aims to share and teach easy Python code that generates great results! 
 
 ###
 
-**<h2>📂 Organização de Arquivos</h2>**
+**<h2>📂 File Organization</h2>**
 
 ###
 ```css
@@ -23,15 +23,15 @@ funcoes-condicoes/
 
 ###
 
-**<h2>✅ Como usar o código?</h2>**
+**<h2>✅ How to use the code?</h2>**
 
 ###
 
-No Powershell, CmD, ou Bash, digite:
+in Powershell, CmD, or Bash, wirite:
 
 ###
 
-```bash
+```powershell 
 git clone https://github.com/Kauan19-hub/Python.git
 ```
 
