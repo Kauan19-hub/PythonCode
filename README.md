@@ -9,7 +9,7 @@ This repository aims to share and teach easy Python code that generates great re
 **<h2>📂 File Organization</h2>**
 
 ###
-```powershell 
+```yaml 
 funcoes-condicoes/
 │
 ├── README.md
