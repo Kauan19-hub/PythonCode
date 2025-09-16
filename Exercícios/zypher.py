@@ -1,6 +1,7 @@
 ### ZYPHER - MINI CHATBOT VIRTUAL CRIADA POR MIM  ###
 class Robo():
-  def __init__(self, nome: str, idade: int, cidade: str, estado: str, personalidade: str, objetivo: str, gosto: str, saude: int = 100, fome: int = 0, sede: int = 0, cansaco: int = 0, sanidade: int = 0, disposicao: int = 0):
+  def __init__(self, nome: str, idade: int, cidade: str, estado: str, personalidade: str, objetivo: str, gosto: str, saude: int = 100, fome: int = 0, sede: int = 0, cansaco: int = 0, sanidade: int = 0,
+               disposicao: int = 0):
     self.__nome = nome
     self.__idade = idade
     self.__cidade = cidade
