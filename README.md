@@ -27,7 +27,7 @@ funcoes-condicoes/
 
 ###
 
-in Powershell, CmD, or Bash, wirite:
+in Powershell, CmD, or Bash, write:
 
 ###
 
