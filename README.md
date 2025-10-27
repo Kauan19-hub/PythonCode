@@ -6,23 +6,6 @@ This repository aims to share and teach easy Python code that generates great re
 
 ###
 
-**<h2>📂 File Organization</h2>**
-
-###
-```powershell 
-funcoes-condicoes/
-│
-├── README.md
-├── main.py
-├── src/
-│   ├── calculadora.py
-│   └── verificadores.py
-└── exemplos/
-    └── input_exemplo.txt
-```
-
-###
-
 **<h2>✅ How to use the code?</h2>**
 
 ###
